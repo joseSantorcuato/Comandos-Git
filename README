@@ -15,8 +15,21 @@ Con un editor de texto tipo atom crea un archivo que se llame README
 
 git add README
 
-
-git commit -m "Comentario que describe al archivo, fecha de creación, modificación, etc"
-
+git commit -m "Comandos básicos de Github 01/02/2017"
+//git commit -m "Comentario que describe al archivo, fecha de creación, modificación, etc"
 
 git push origin master
+
+Solicita nombre de usuario Github:
+
+Username for 'https://github.com':
+
+Password for 'https://tuUsuario@github.com':
+
+Counting objects: x, done.
+Delta compression using up to x threads.
+Compressing objects: 100% (x/x), done.
+Writing objects: 100% (x/x), x bytes | 0 bytes/s, done.
+Total x (delta 0), reused 0 (delta 0)
+To https://github.com/tuUsuario/repositorio
+ * [new branch]      master -> master
