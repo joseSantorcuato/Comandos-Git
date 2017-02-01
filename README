@@ -1,0 +1,22 @@
+Comandos básicos Github.
+José Santorcuato Tapia
+santorcuato76@gmail.com
+Chile 2017
+
+git clone https://github.com/tuUsuarioGit/repositorioAClonar
+
+Clona un repositorio de Github luego:
+
+cd repositorioAClonar
+
+git status
+
+Con un editor de texto tipo atom crea un archivo que se llame README
+
+git add README
+
+
+git commit -m "Comentario que describe al archivo, fecha de creación, modificación, etc"
+
+
+git push origin master
