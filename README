@@ -3,6 +3,23 @@ José Santorcuato Tapia
 santorcuato76@gmail.com
 Chile 2017
 
+Configuración local:
+
+git config --global color.ui true
+git config --global user.name "tuUsuario"
+git config --global user.email "tuUsuario@xmail.com"
+ssh-keygen -t rsa -b 4096 -C "tuUsuario@xmail.com"
+
+cat ~/.ssh/id_rsa.pub
+
+Obtienes el Key SHH para establecer conexión con Github (Copia el resultado en las claves Ssh)
+
+Prueba que se establezca la conexión:
+
+ssh -T git@github.com
+
+Ahora clonamos
+
 git clone https://github.com/tuUsuarioGit/repositorioAClonar
 
 Clona un repositorio de Github luego:
