@@ -28,6 +28,8 @@ cd repositorioAClonar
 
 git status
 
+git add -A agrega todos los archivos
+
 Con un editor de texto tipo atom crea un archivo que se llame README
 
 git add README
