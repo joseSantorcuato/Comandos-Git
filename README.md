@@ -52,3 +52,10 @@ Writing objects: 100% (x/x), x bytes | 0 bytes/s, done.
 Total x (delta 0), reused 0 (delta 0)
 To https://github.com/tuUsuario/repositorio
  * [new branch]      master -> master
+
+Cambio de lenguaje para mostrar en repositorio
+
+Crear archivo raíz .gitattributes
+
+*.php linguist-language=Ruby // interpreta php como ruby
+*.rb linguist-language=Ruby // interpreta .rb como ruby
