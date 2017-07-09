@@ -5,6 +5,10 @@ Chile 2017
 
 Configuración local:
 
+sudo apt-get install git
+
+ssh-keygen
+
 git config --global color.ui true
 git config --global user.name "tuUsuario"
 git config --global user.email "tuUsuario@xmail.com"
